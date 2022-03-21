@@ -13,4 +13,9 @@ Utilize variáveis de dupla precisão (double). Como todos os problemas, não es
 caso contrário, você receberá "Presentation Error".
 
 
-Observação: se usar float ele vai arredondar o numero e isso vai gerar erro, por isso use double
+Observação: o java normalmente usa o padrão do seu computador que tende a ser a virgula (,).Use o locate para fazer o java aceitar o ponto
+como separador de casas decimais para não resultar em problema
+
+Observação 2: dependendo da IDE que você usa ele pode arredondar o valor e fazer com que resulte valores diferentes após a virgula, 
+eu uso blueJ e meu código resultava em um valor diferente ao do valor de saída de exemplo do site, mas ao colocar o código no site ele deu o
+resultado esperado, então fique atento com isso.
